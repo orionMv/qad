@@ -27,6 +27,10 @@ Route::get('/standards','public_view_controller@standards');
 
 Route::get('/reviews','public_view_controller@reviews');
 
+Route::get('/jobs','public_view_controller@jobs');
+
+Route::get('/job','public_view_controller@job');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

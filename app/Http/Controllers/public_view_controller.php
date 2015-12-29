@@ -57,4 +57,7 @@ class public_view_controller extends Controller
         
     }
     
+    public function jobs(){return view('jobs');}
+    
+    public function job(){return view('job');}
 }

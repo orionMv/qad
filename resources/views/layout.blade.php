@@ -60,6 +60,13 @@
     <!-- teachers directory -->
     <link rel="stylesheet" href="assets/css/pages/page_search_inner.css">
     
+    <!-- JOB MULTI -->
+    <link rel="stylesheet" href="/css/pages/page_job.css">
+    <link rel="stylesheet" href="/plugins/image-hover/css/img-hover.css">
+    
+    <!-- JOB SINGLE -->
+    <link rel="stylesheet" href="/css/pages/page_job_inner2.css">
+    
     <!-- CSS Customization -->
     <link rel="stylesheet" href="/css/custom.css">
     <link rel="stylesheet" href="/css/theme-colors/blue.css">
@@ -164,8 +171,8 @@
                         <div class="headline"><h2>Useful Links</h2></div>
                         <ul class="list-unstyled link-list">
                             <li><a href="#">Downloads</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Careers</a><i class="fa fa-angle-right"></i></li>
-                            <li><a href="#">Ministry of Education</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="jobs">Careers</a><i class="fa fa-angle-right"></i></li>
+                            <li><a href="www.moe.gov.mv" target="_blank">Ministry of Education</a><i class="fa fa-angle-right"></i></li>
                             <li><a href="/contact">Contact us</a><i class="fa fa-angle-right"></i></li>
                         </ul>
                     </div><!--/col-md-3-->
