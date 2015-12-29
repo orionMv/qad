@@ -62,7 +62,7 @@
                 <div class="tag-box tag-box-v7">
                             <h2>Ammended Grading Scheme</h2>
                             <p>Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet consectetur adipiscing elit. Ut non libero consectetur adipiscing elit ellentesque viverra vehicu. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor...</p>
-                            <a class="btn-more" href="/#">Read More +</a>
+                            <a class="btn-more" href="/publication">Read More +</a>
                 </div>
            </div>
             
