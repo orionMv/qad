@@ -23,6 +23,10 @@ Route::get('/publication','public_view_controller@publication');
                 
 Route::get('/teachers','public_view_controller@teachers');
 
+Route::get('/standards','public_view_controller@standards');
+
+Route::get('/reviews','public_view_controller@reviews');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes

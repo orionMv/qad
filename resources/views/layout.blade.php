@@ -113,8 +113,8 @@
                     <!-- Home -->
                     <li><a href="/" >Home</a></li>
                     <li><a href="/publication" >publications</a></li>
-                    <li><a href="" >quality assuarance standards</a></li>
-                    <li><a href="" >reviews & reports</a></li>
+                    <li><a href="/standards" >quality assuarance standards</a></li>
+                    <li><a href="/reviews" >reviews & reports</a></li>
                     <li><a href="/teachers" >teachers directory</a></li>
                     <li><a href="/gallery" >gallery</a></li>
                     <li><a href="/about" >about</a></li>

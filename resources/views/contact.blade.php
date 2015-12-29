@@ -22,42 +22,49 @@
 
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
 
-                <form action="assets/php/sky-forms-pro/demo-contacts-process.php" method="post" id="sky-form3" class="sky-form contact-style">
+                {!! Form::open(['url'=>'/contact/send_message','method'=>'POST','files'=>'false','class'=>'skyform contact-style','id'=>'sky-form3']) !!}
                     <fieldset class="no-padding">
-                        <label>Name <span class="color-red">*</span></label>
                         <div class="row sky-space-20">
                             <div class="col-md-7 col-md-offset-0">
-                                <div>
-                                    <input type="text" name="name" id="name" class="form-control">
+                                <div class="form-group">
+                                    {!! Form::label('name','Name') !!}
+                                    {!! Form::text('name',null,['class'=>'form-control']) !!}
                                 </div>
                             </div>
                         </div>
 
-                        <label>Email <span class="color-red">*</span></label>
                         <div class="row sky-space-20">
                             <div class="col-md-7 col-md-offset-0">
-                                <div>
-                                    <input type="text" name="email" id="email" class="form-control">
+                                <div class="form-group">
+                                    {!! Form::label('email','Email') !!}
+                                    {!! Form::text('email',null,['class'=>'form-control']) !!}
                                 </div>
                             </div>
                         </div>
 
-                        <label>Message <span class="color-red">*</span></label>
                         <div class="row sky-space-20">
-                            <div class="col-md-11 col-md-offset-0">
-                                <div>
-                                    <textarea rows="8" name="message" id="message" class="form-control"></textarea>
+                            <div class="col-md-7 col-md-offset-0">
+                                <div class="form-group">
+                                    {!! Form::label('message','Message') !!}
+                                    {!! Form::textarea('message',null,['class'=>'form-control']) !!}
                                 </div>
                             </div>
                         </div>
                         
                         <div class="margin-bottom-20"></div>
                         
-                        <p><button type="submit" class="btn-u">Send Message</button></p>
+                        <div class="row sky-space-20">
+                            <div class="col-md-7 col-md-offset-0">
+                                <div class="form-group">
+                                    {!! Form::submit('send message',['class'=>'form-control btn-u text-uppercase']) !!}
+                                </div>
+                            </div>
+                        </div>
+                        
                     </fieldset>
 
                     
-                </form>
+                {!! Form::close() !!}
             </div><!--/col-md-9-->
 
             <div class="col-md-3">

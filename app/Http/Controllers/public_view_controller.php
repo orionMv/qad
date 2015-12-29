@@ -45,4 +45,16 @@ class public_view_controller extends Controller
         
     }
     
+    public function standards(){
+        
+        return view('standards');
+        
+    }
+    
+    public function reviews(){
+        
+        return view('reviews');
+        
+    }
+    
 }
