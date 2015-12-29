@@ -1,0 +1,12 @@
+/* Add here all your css styles (customizations) */
+
+.reports-list{
+	
+	font-size: 16px;
+	
+}
+.clear-fix{margin:5px 0; padding: 5px 0; width:1px;}
+.reports-list ul {padding:0 0 0 25px;}
+.reports-list ul li{list-style: upper-roman; margin-left: 0; padding: 5px 0;}
+
+.inner-results ul li{list-style:none;}
